@@ -24,5 +24,7 @@ export default function Education() {
     },
   ];
 
-  return <FocusCards cards={cards} />;
+  return <>
+    <FocusCards cards={cards} />;
+  </>
 }
