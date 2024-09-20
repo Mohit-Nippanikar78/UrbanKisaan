@@ -8,7 +8,7 @@ import Compo1 from "./components/Compo1";
 import Compo2 from "./components/Compo2";
 import Globe from "./components/GithubGlobe";
 import Reviews from "./components/Reviews";
-
+import FAQ from "./components/FAQ";
 const App = () => {
   return (
     <div className=" dark:bg-black bg-white">
@@ -21,6 +21,7 @@ const App = () => {
       <Compo2/>
       </div>
       <Reviews/>
+      <FAQ/>
       
       {/* <Globe/>   */}
     </div>

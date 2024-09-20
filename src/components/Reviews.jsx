@@ -2,7 +2,8 @@ import { CardStack } from "../components/ui/card-stack";
 import { cn } from "../utils/lib";
 export default function Reviews() {
   return (
-    (<div className="h-[20rem] flex items-center justify-center w-full">
+    (<div className="h-[20rem] flex items-center justify-center  gap-16 w-full">
+      <h1 className="text-3xl font-bold text-center">Testimonials</h1>
       <CardStack items={CARDS} />
     </div>)
   );

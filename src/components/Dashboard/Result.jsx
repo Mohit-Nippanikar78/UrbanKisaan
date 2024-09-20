@@ -1,8 +1,9 @@
 import React from "react";
 import { Card, CardBody, CardHeader, Image } from "@nextui-org/react";
+import ProgressBar from "./ProgressBar";
 const Result = () => {
   return (
-    <div className="flex max-w-5xl py-4 mx-auto">
+    <div className="flex max-w-5xl py-4 mx-auto ">
       <Card className="py-4">
         <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
           <p className="text-tiny uppercase font-bold">Daily Mix</p>
@@ -18,6 +19,9 @@ const Result = () => {
           />
         </CardBody>
       </Card>
+      <div className="m-4  shadow-md p-4 rounded-lg">
+      <ProgressBar/>
+      </div>
     </div>
   );
 };

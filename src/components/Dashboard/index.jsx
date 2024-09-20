@@ -14,12 +14,12 @@ const Dashboard = () => {
     "Pest Activity",
   ];
   return (
-    <div>
-      {file ? (
+    <div className="mb-16">
+      {true ? (
         <Result />
       ) : (
         <>
-          <div className="h-[18rem] flex justify-center items-center px-4">
+          <div className="h-[18rem] flex justify-center items-center">
             <div className="text-2xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
               <div className="text-3xl">
                 Track
