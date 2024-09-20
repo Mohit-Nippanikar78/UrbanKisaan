@@ -14,7 +14,7 @@ import SignUp from "./components/SignUp";
 import NavbarMain from "./components/NavbarMain";
 import Dashboard from "./components/Dashboard/index";
 import Education from "./components/Education/index";
-import Marketplace from "./components/Marketplace";
+import Marketplace from "./components/Marketplace/index";
 import Community from "./components/Community";
 import Login from "./components/Login";
 import Footer from "./components/Footer";

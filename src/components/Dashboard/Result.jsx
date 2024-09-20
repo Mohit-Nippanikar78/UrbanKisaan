@@ -1,6 +1,10 @@
 import React from "react";
 import { Card, CardBody, CardHeader, Image } from "@nextui-org/react";
 import ProgressBar from "./ProgressBar";
+import Photo1 from "../../assets/photo1.png";
+import Photo2 from "../../assets/photo2.png";
+import Photo3 from "../../assets/photo3.png";
+
 const Result = () => {
   return (
     <div className="flex max-w-5xl py-4 mx-auto ">
@@ -20,7 +24,13 @@ const Result = () => {
         </CardBody>
       </Card>
       <div className="m-4  shadow-md p-4 rounded-lg">
-      <ProgressBar/>
+        <ProgressBar />
+        <img className="w-[32rem] mt-4" src={Photo1} alt="" />
+        <div className="flex justify-between gap-8 my-4">
+        <img className="w-56" src={Photo2} alt="" />
+        <img className="w-56" src={Photo3} alt="" />
+
+        </div>
       </div>
     </div>
   );
