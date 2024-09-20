@@ -43,7 +43,7 @@ export default function Filterbutton() {
   };
 
   const labelsMap = {
-    merge: "Create a merge commit",
+    merge: "Search Crop",
     squash: "Squash and merge",
     rebase: "Rebase and merge",
   };
