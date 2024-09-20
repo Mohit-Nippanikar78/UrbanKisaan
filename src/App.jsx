@@ -1,16 +1,9 @@
-import React from "react";
-import { Hero } from "./components/Hero";
-import BigLoader from "./components/BigLoader";
-import Navbar from "./components/NavbarMain";
+import React from 'react'
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      {/* <BigLoader/> */}
-    </div>
-  );
-};
+    <div>App</div>
+  )
+}
 
-export default App;
+export default App
