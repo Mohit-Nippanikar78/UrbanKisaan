@@ -68,7 +68,7 @@ export default function NavbarMain() {
       >
         <AcmeLogo />
         <p className="font-bold text-inherit text-black dark:text-white">
-          ACME
+          UrbanKisaan
         </p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
