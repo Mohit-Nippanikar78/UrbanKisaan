@@ -25,7 +25,7 @@ export default function BigLoader() {
   }, []);
 
   return (
-    <div className="w-full h-[60vh] flex items-center justify-center">
+    <div className="w-full h-[vh] flex items-center justify-center">
       <Loader loadingStates={loadingStates} loading={loading} duration={1000} />
       {/* <button
         onClick={() => setLoading(true)}

@@ -15,7 +15,7 @@ const Dashboard = () => {
   ];
   return (
     <div className="mb-16">
-      {true ? (
+      {file ? (
         <Result />
       ) : (
         <>
