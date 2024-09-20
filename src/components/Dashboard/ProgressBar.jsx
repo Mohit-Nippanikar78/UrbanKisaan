@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react';
 
 function ProgressBar() {
-  const [percentage, setPercentage] = useState(0);
+  const [percentage, setPercentage] = useState(80);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setPercentage((prev) => (prev < 80 ? prev + 10 : clearInterval(interval)));
-    }, 1000);
-    return () => clearInterval(interval);
-  }, []);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setPercentage((prev) => (prev < 80 ? prev + 10 : clearInterval(interval)));
+  //   }, 1000);
+  //   return () => clearInterval(interval);
+  // }, []);
 
   const getColor = () => {
     if (percentage < 33) return 'bg-red-500';

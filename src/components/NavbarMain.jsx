@@ -72,7 +72,7 @@ export default function NavbarMain() {
         </p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <Dropdown>
+        {/* <Dropdown>
           <NavbarItem>
             <DropdownTrigger>
               <Button
@@ -129,7 +129,7 @@ export default function NavbarMain() {
               +Supreme Support
             </DropdownItem>
           </DropdownMenu>
-        </Dropdown>
+        </Dropdown> */}
         <NavbarItem isActive={location.pathname === "/dashboard"}>
           <Link
             aria-current="page"
