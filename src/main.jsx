@@ -15,9 +15,10 @@ import NavbarMain from "./components/NavbarMain";
 import Dashboard from "./components/Dashboard/index";
 import Education from "./components/Education/index";
 import Marketplace from "./components/Marketplace/index";
-import Community from "./components/Community";
+import Community from "./components/Community/index";
 import Login from "./components/Login";
 import Footer from "./components/Footer";
+import BigLoader from "./components/BigLoader";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -25,10 +26,10 @@ const router = createBrowserRouter(
       path="/"
       element={
         <>
-          {/* <BigLoader/> */}
           <NavbarMain />
           <Outlet />
-          <Footer/>
+          <BigLoader />
+          <Footer />
         </>
       }
     >

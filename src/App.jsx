@@ -15,7 +15,6 @@ const App = () => {
       <Hero />
       <Tooltip />
       <div className="bg-black">
-
       <Featured/>
       <Compo1/>
       <Compo2/>
