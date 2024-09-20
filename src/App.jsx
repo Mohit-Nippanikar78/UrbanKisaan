@@ -7,6 +7,7 @@ import Featured from "./components/Featured";
 import Compo1 from "./components/Compo1";
 import Compo2 from "./components/Compo2";
 import Globe from "./components/GithubGlobe";
+import Reviews from "./components/Reviews";
 
 const App = () => {
   return (
@@ -19,6 +20,8 @@ const App = () => {
       <Compo1/>
       <Compo2/>
       </div>
+      <Reviews/>
+      
       {/* <Globe/>   */}
     </div>
   );
