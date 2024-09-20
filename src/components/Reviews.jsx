@@ -28,40 +28,23 @@ export const Highlight = ({
 const CARDS = [
   {
     id: 0,
-    name: "Manu Arora",
-    designation: "Senior Software Engineer",
+    name: "Amit, Urban Farmer",
+    designation: "Soil Health Enthusiast",
     content: (
       <p>
-        These cards are amazing, <Highlight>I want to use them</Highlight> in my
-        project. Framer motion is a godsend ngl tbh fam 🙏
+        UrbanKisaan has been a <Highlight>game-changer</Highlight> for me. The dashboard makes it so easy to monitor soil health and crop growth in real-time!
       </p>
     ),
   },
   {
     id: 1,
-    name: "Elon Musk",
-    designation: "Senior Shitposter",
+    name: "Rahul, Rooftop Gardener",
+    designation: "Urban Gardener",
     content: (
       <p>
-        I dont like this Twitter thing,{" "}
-        <Highlight>deleting it right away</Highlight> because yolo. Instead, I
-        would like to call it <Highlight>X.com</Highlight> so that it can easily
-        be confused with adult sites.
+        UrbanKisaan's marketplace has made <Highlight>buying and selling produce</Highlight> so much easier. The platform is simple to use, and the dashboard helps me <Highlight>track my crops</Highlight> progress without any hassle.
       </p>
     ),
-  },
-  {
-    id: 2,
-    name: "Tyler Durden",
-    designation: "Manager Project Mayhem",
-    content: (
-      <p>
-        The first rule of
-        <Highlight>Fight Club</Highlight> is that you do not talk about fight
-        club. The second rule of
-        <Highlight>Fight club</Highlight> is that you DO NOT TALK about fight
-        club.
-      </p>
-    ),
-  },
+  }
+  
 ];

@@ -7,35 +7,26 @@ const Compo1 = () => {
         <div class="leading-relaxed space-y-4 md:space-y-6">
           <div class="text-neutral-content/80 space-y-1">
             <p>
-              <span class="text-red-400 font-medium">4 hrs</span> to set up
-              emails
+              <span class="text-red-400 font-medium">4 hrs</span> spent testing soil manually
             </p>
             <p>
-              + <span class="text-red-400 font-medium">6 hrs</span> designing a
-              landing page
+              + <span class="text-red-400 font-medium">6 hrs</span> figuring crop health without data
             </p>
             <p>
-              + <span class="text-red-400 font-medium">4 hrs</span> to handle
-              Stripe webhooks
+              + <span class="text-red-400 font-medium">4 hrs</span> guessing the best planting time
             </p>
             <p>
-              + <span class="text-red-400 font-medium">2 hrs</span> for SEO tags
+              + <span class="text-red-400 font-medium">2 hrs</span> worrying about unpredictable weather
             </p>
             <p>
-              + <span class="text-red-400 font-medium">1 hr</span> applying for
-              Google Oauth
+              + <span class="text-red-400 font-medium">1 hr</span> searching for expert advice online
             </p>
             <p>
-              + <span class="text-red-400 font-medium">3 hrs</span> for DNS
-              records
+              + <span class="text-red-400 font-medium">3 hrs</span> finding reliable marketplaces to sell produce
             </p>
             <p>
-              + <span class="text-red-400 font-medium">2 hrs</span> for
-              protected API routes
-            </p>
-            <p>
-              + <span class="text-red-400 font-medium">∞ hrs</span>
-              overthinking...
+              + <span class="text-red-400 font-medium">∞ hrs </span>
+               stressed about low yields and lack of support(overthinking)...
             </p>
           </div>
           <div class="text-xl font-semibold flex flex-col md:flex-row items-center justify-center gap-3">
